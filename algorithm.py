@@ -1,16 +1,14 @@
-
-
 def generate_schedule(data):
     """
     Placeholder function that takes input data and returns a schedule.
     """
     return {}
 
-
-# Updated algorithm with new placeholder function
 def calculate_schedule(data):
     """
-    Another placeholder function for demonstration.
+    Placeholder function that reuses generate_schedule.
     """
-    # reuse generate_schedule for now
+    # TODO: implement more advanced scheduling algorithm
     return generate_schedule(data)
+
+
