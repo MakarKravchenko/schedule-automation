@@ -1,20 +1,9 @@
-https://github.com/MakarKravchenko/schedule-automation/blob/feature/algorithm-logic/algorithm.py"""
-This module provides a simple scheduling algorithm for the automation system.
-The generate_schedule function will process a list of lesson requests and
-return a schedule grouped by group name.
-
-The input `data` should be a list of dictionaries with at least the keys:
-- group: group identifier
-- subject: the subject name
-- time: time slot or period
-
-The returned schedule is a dictionary where each key is a group and the
-value is a list of (subject, time) tuples.
-"""
+# This module provides a simple scheduling algorithm for the automation system.
 
 def generate_schedule(data):
     """
-    Generate a schedule dictionary from a list of class dictionaries.
+    Returns a schedule dict where each key is a group and
+    the value is a list of (subject, time) tuples.
 
     Args:
         data (list): List of dictionaries with keys 'group', 'subject', and 'time'.
