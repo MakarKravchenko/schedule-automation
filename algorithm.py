@@ -1,4 +1,4 @@
-"""
+https://github.com/MakarKravchenko/schedule-automation/blob/feature/algorithm-logic/algorithm.py"""
 This module provides a simple scheduling algorithm for the automation system.
 The generate_schedule function will process a list of lesson requests and
 return a schedule grouped by group name.
@@ -31,3 +31,11 @@ def generate_schedule(data):
             continue  # skip entries without a group
         schedule.setdefault(group, []).append((subject, time_slot))
     return schedule
+
+
+def calculate_schedule(data):
+    """
+    Placeholder function that reuses generate_schedule.
+    """
+    # TODO: implement more advanced scheduling algorithm
+    return generate_schedule(data)
