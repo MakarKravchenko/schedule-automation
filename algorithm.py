@@ -4,10 +4,11 @@ def generate_schedule(data):
     """
     return {}
 
-
 def calculate_schedule(data):
     """
-    Another placeholder function for demonstration.
+    Placeholder function that reuses generate_schedule.
     """
-    # reuse generate_schedule for now
+    # TODO: implement more advanced scheduling algorithm
     return generate_schedule(data)
+
+
